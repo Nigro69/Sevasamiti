@@ -1,0 +1,86 @@
+.nbg {
+  background: #4c4c4c;
+}
+
+.pri {
+  color: #fcb900;
+}
+
+.bpri {
+  background: #fcb900;
+}
+
+.pfont {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.i7 {
+  height: 150px;
+  width: auto;
+}
+
+.bt{
+    text-decoration: none;
+}
+.bt:hover{
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.ft {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+main {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: auto;
+}
+
+.payment-link {
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  margin: 5px;
+}
+
+.payment-link:hover {
+  scale: 1.1;
+}
+
+.paytm {
+  background-color: #00B9F1;
+}
+
+.phonepe {
+  background-color: #481d70;
+}
+
+.google-pay {
+  background-color: #4285F4;
+}
+.hov:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
